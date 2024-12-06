@@ -1,4 +1,4 @@
-# **Saru-CLI**
+# **SARU-CLI**
 
 ![Saru CLI Banner](https://github.com/Ureshii7/SARU-CLI/blob/main/SARU-CLI-banner.png)  
 

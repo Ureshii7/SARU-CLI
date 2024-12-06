@@ -5,16 +5,16 @@
 ---
 
 ## **Features**
-- 🔍 **Natural Language Interpretation**: Execute Linux commands using human-friendly text, e.g., `"Show me all files larger than 1GB"` instead of `find . -size +1G`.
-- 🧠 **NLP-Powered Engine**: Leverages Python-based NLP models for accurate command parsing.
-- 🌟 **Customizable**: Add support for your custom Linux commands or aliases.
-- 🚀 **Lightweight and Fast**: Optimized for speed and performance on any Linux system.
+- **Natural Language Interpretation**: Execute Linux commands using human-friendly text, e.g., `"Show me all files larger than 1GB"` instead of `find . -size +1G`.
+- **NLP-Powered Engine**: Leverages Python-based NLP models for accurate command parsing.
+- **Customizable**: Add support for your custom Linux commands or aliases.
+- **Lightweight and Fast**: Optimized for speed and performance on any Linux system.
 
 ---
 
 ## **Future Updates**
-- ✅ Context-Aware Commands (CAC): Remember previous commands and adjust execution based on context.
-- ✅ Improved NLP Accuracy: Integration with advanced NLP models for enhanced understanding.
-- ✅ Multi-Language Support: Allow input commands in multiple languages.
+- Context-Aware Commands (CAC): Remember previous commands and adjust execution based on context.
+- Improved NLP Accuracy: Integration with advanced NLP models for enhanced understanding.
+- Multi-Language Support: Allow input commands in multiple languages.
 
 ---

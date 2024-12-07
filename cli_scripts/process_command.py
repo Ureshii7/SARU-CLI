@@ -9,7 +9,7 @@ print(f"Input received: {sys.argv[1]}")
 logging.basicConfig(filename="saru-cli.log", level=logging.DEBUG, format='%(asctime)s - %(message)s')
 
 # Load the pre-trained NLP model (you can replace this with your own trained model)
-classifier = TextClassifier.load('en-sentiment')  # Placeholder model; replace with your custom model
+classifier = TextClassifier.load('en-sentiment')  
 
 # Get the user input from the Bash script
 user_input = sys.argv[1]

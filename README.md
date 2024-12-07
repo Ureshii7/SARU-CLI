@@ -5,7 +5,7 @@
 ---
 
 ## **Features**
-- **Natural Language Interpretation**: Execute Linux commands using human-friendly text, e.g., `"Show me all files larger than 1GB"` instead of `find . -size +1G`.
+- **Natural Language Interpretation**: Execute Linux commands using human-friendly text, e.g., `"Find and delete files bigger than 1GB"` instead of `find . -type f -size +1G -exec rm -i {} \;`.
 - **NLP-Powered Engine**: Leverages Python-based NLP models for accurate command parsing.
 - **Customizable**: Add support for your custom Linux commands or aliases.
 - **Lightweight and Fast**: Optimized for speed and performance on any Linux system.

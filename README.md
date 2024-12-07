@@ -1,4 +1,4 @@
-![Saru CLI Banner](https://github.com/Ureshii7/SARU-CLI/blob/main/SARU-CLI-banner.png)  
+![Saru CLI Banner](https://github.com/Ureshii7/SARU-CLI/assets/SARU-CLI-banner.png)  
 
 **Saru CLI** is an intelligent Natural Language Processing (NLP)-driven Command Line Interface that bridges the gap between traditional Linux commands and intuitive, human-like instructions. It's designed to enhance productivity, simplify command execution, and adapt to user needs.
 

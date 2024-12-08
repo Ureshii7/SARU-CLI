@@ -1,0 +1,66 @@
+SARU-CLI/
+├── core/                      # Core functionality in C/Bash
+│   ├── session.c              # Manage multiple terminal sessions, tabs, and windows
+│   ├── input.c                # Handle user inputs and commands
+│   ├── render.c               # Render output and manage the terminal UI
+│   ├── clipboard.c            # Manage clipboard interactions
+│   ├── config.c               # Parse and apply configuration files
+│   └── window.c               # Manage window sizes, borders, and layout
+├── include/                   # Header files
+│   ├── session.h              # Header for session management
+│   ├── input.h                # Header for input handling
+│   ├── ui.h                   # Header for UI rendering
+│   ├── core.h                 # Header for core functionality
+│   ├── cli.h                  # Header for CLI logic
+│   ├── terminal.h             # Header for terminal-related functions
+│   ├── color.h                # Header for color management
+│   ├── font.h                 # Header for font management
+│   └── system.h               # Header for system-related functions
+├── modules/                   # Additional features or extensions
+│   ├── color/                 # Manage color schemes and rendering
+│   │   ├── color.c            # Color management logic
+│   │   ├── color.h            # Header for color management
+│   ├── font/                  # Font management and rendering
+│   │   ├── font.c             # Font management logic
+│   │   ├── font.h             # Header for font management
+│   ├── system/                # System-related operations (process management, etc.)
+│   │   ├── system.c           # System-related functions
+│   │   ├── system.h           # Header for system-related operations
+│   └── shortcuts/             # Keybinding and shortcuts management
+│       ├── shortcuts.c        # Shortcuts management logic
+│       └── shortcuts.h        # Header for shortcuts management
+├── config/                    # Configuration files for SARU-CLI
+│   ├── config.ini             # Base configuration
+│   ├── themes/                # Theme files (YAML/JSON)
+│   └── keybindings.conf       # Keybinding configuration
+├── utils/                     # Utility functions (C and Bash scripts)
+│   ├── helpers.c              # Helper functions
+│   ├── logger.c               # Logging utilities for debugging
+│   └── utils.sh               # Shell scripts for utility functions
+├── assets/                    # Asset files (if you plan to have images or themes)
+│   ├── icons/                 # Icons or UI assets
+│   └── backgrounds/           # Background images
+├── scripts/                   # Bash scripts for extensions
+│   ├── setup/                 # Setup-related scripts
+│   │   ├── install.sh         # Install script
+│   │   ├── configure.sh       # Configuration setup script
+│   ├── maintenance/           # Maintenance-related scripts
+│   │   ├── update.sh          # Update script
+│   └── utilities/             # Utility-related scripts
+│       └── cleanup.sh         # Clean-up script
+├── tests/                     # Unit and integration tests
+│   ├── test_session.c         # Session management tests
+│   ├── test_input.c           # Input handling tests
+│   ├── test_config.c          # Configuration handling tests
+│   └── test_render.c          # Rendering tests
+├── platform/                  # Platform-specific files (cross-platform support)
+│   ├── linux.c                # Linux-specific code
+│   ├── windows.c              # Windows-specific code
+│   └── mac.c                  # macOS-specific code
+├── doc/                       # Documentation for SARU-CLI
+│   ├── README.md              # Project overview and installation
+│   ├── usage.md               # How to use SARU-CLI
+│   ├── core_design.md         # Core design overview
+│   ├── extending_saru.md      # Guide to extending SARU-CLI
+│   └── contributing.md        # Contribution guidelines
+└── Makefile                   # Compilation and build instructions

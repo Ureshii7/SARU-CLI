@@ -37,7 +37,7 @@ SARU-CLI/
 │   ├── helpers.c              # Helper functions
 │   ├── logger.c               # Logging utilities for debugging
 │   └── utils.sh               # Shell scripts for utility functions
-├── assets/                    # Asset files (if you plan to have images or themes)
+├── assets/                    # Asset files 
 │   ├── icons/                 # Icons or UI assets
 │   └── backgrounds/           # Background images
 ├── scripts/                   # Bash scripts for extensions
